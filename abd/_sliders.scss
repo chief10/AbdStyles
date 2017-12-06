@@ -1,0 +1,23 @@
+.slider {
+  margin: $slider-margin;
+  background-color: $abd-basic;
+  display: inline-block;
+}
+
+.slider-head {
+  font-family: $slider-head-font;
+  padding: $slider-head-margin-y $slider-head-margin-x;
+  border-bottom: 1px solid $abd-dull;
+}
+
+.slider-section {
+  margin-top: $slider-margin;
+};
+
+.slider-section-label {
+  display: inline-block;
+  padding: $slider-section-label-padding-y $slider-section-label-padding-x;
+  padding-left: $slider-section-label-padding-x * 2;
+  margin-bottom: $slider-section-label-padding-y;
+  border-radius: 0 $border-radius-base $border-radius-base 0;
+}

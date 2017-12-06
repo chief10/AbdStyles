@@ -1,0 +1,22 @@
+.pairing {
+  display: inline-block;
+  flex: 1;
+  padding: $pairing-padding;
+}
+
+.pairing > .pairing-main {
+  font-size: $pairing-main-font-size;
+  text-align: center;
+  width: 100%;
+}
+
+.pairing > .pairing-label {
+  font-size: $pairing-label-font-size;
+  text-align: center;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.pairing-group {
+  display: flex;
+}

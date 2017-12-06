@@ -1,0 +1,31 @@
+.abd-list {
+  padding: $list-padding;
+}
+
+.abd-list-plain {
+  list-style-type: none;
+}
+
+.abd-list-item-longform {
+  padding-bottom: $list-padding-y;
+  &:not(:first-child) {
+    padding-top: 25px;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px dotted black;
+  }
+}
+
+.abd-list-item-row {
+  margin-bottom: $list-longform-row-margin-y;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.abd-list-item-row {
+  h1, h2, h3, h4, h5, h6 {
+    text-decoration: underline;
+  }
+}

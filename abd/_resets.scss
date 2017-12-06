@@ -7,8 +7,9 @@ body {
   margin: 0;
 }
 
-ul {
+ul, ol {
   margin: 0;
+  padding: 0;
 }
 
 a { 
@@ -17,4 +18,9 @@ a {
   &:hover {
     cursor: pointer;
   }
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
