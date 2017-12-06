@@ -1,0 +1,22 @@
+// @import 'variables';
+
+.abd-text-success {
+  color: $abd-success; 
+};
+
+.abd-text-danger {
+  color: $abd-danger-var;
+}
+
+.abd-text-big {
+  font-size: 2rem;
+}
+
+.abd-text-center {
+  text-align: center;
+}
+
+.abd-text-bg-info {
+  color: $white;
+  background-color: $abd-info;
+}

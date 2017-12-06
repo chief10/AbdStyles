@@ -1,0 +1,18 @@
+@import 'variables';
+
+.danger-bg,
+.abd-bg-danger {
+  background-color: $abd-danger;
+  color: $white;
+}
+
+.abd-bg-primary {
+  background-color: $abd-primary;
+  color: $white;
+}
+
+
+.abd-danger-card {
+  border-top: 4px solid $abd-danger;
+  border-radius: 3px 3px 0 0;
+}
